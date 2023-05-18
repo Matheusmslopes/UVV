@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>IMC</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="h1">
+      <h1> Descubra o seu IMC</h1> 
+    </div>
+    <div class="divp1"> 
+      <p>Este site foi feito para você 
+      descobrir seu IMC(<strong>Índice de massa 
+      corporal</strong>) de uma maneira rápida e fácil!
+      </p>
+      <p>Segue abaixo, um exemplo de como deve ser 
+      feito.
+    </p>
+    </div>
+    <h3>Exemplo!!</h3>
+    Peso:<input type="text" id="peso1" name="peso1" value="65"readonly>    <br><br>
+    Altura:<input type="text" id="altura1" name="altura1" value="1.77" readonly><br><br>
+    IMC:<input type="text" id="IMC" name="IMC" value="20.75" readonly><br><br>
+    
+    <div class="divp2">
+    <p>
+      Neste caso acima, o seu IMC seria Normal!
+    </p>
+    <p>
+      Abaixo, segue a foto para ilustrar o índice de 
+      massa corporal.
+    </div>
+    </p>
+    <div class="img">
+    <img src="IMC.webp" alt="Foto dos IMC">
+    </div>
+    <p class="p4">
+      Agora que você já sabe como fazer, coloque os seus dados e confira o seu IMC!
+    </p>
+    
+    <form>
+       Peso:<input id="p" type="number" name="peso" > <br><br>
+       Altura:<input id="a" type="number" name="altura"> <br><br>
+    </form>
+     <button onclick="imc()">Calcular</button>
+    <div id="out" style="display:none;">
+       Seu IMC é=
+    </div>
+    
+    
+    <script src="script.js"></script>
+  </body>
+</html>
