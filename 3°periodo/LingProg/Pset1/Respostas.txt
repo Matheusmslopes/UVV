@@ -1,0 +1,2 @@
+Questão 1 -> Uma imagem com 4 px de largura e 1 px de altura com cores [226, 166, 119, 55]. 
+
