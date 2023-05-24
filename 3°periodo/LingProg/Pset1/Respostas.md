@@ -4,5 +4,5 @@ e depois de passar por essa função, ele estará completamente invertido.
 Usando o output esperado como exemplo, as cores originais desses pixels seriam [29, 89, 136, 200].
 Uma conta de exemplo seria: 255 - 29, que daria 226. E esse é o novo valor do pixel depois de invertido.
 
-Questão 2 -> 
+Questão 2 -> ![bluegill_invertida](img/bluegill_invertida.png)
 
