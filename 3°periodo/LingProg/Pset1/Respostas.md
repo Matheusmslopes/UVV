@@ -16,6 +16,8 @@ Uma conta de exemplo seria: 255 - 29, que daria 226. E esse é o novo valor do p
 Basta multiplicar os valores do kernel de acordo com as posições dos pixels da imagem
 (Por questão de praticidade eu não inclui na conta os pixels multiplicados por 0.00)
 
+![calculo](img/Calculo.jpeg)
+
 
 ##
 
