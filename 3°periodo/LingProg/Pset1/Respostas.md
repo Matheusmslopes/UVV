@@ -10,7 +10,12 @@ Uma conta de exemplo seria: 255 - 29, que daria 226. E esse é o novo valor do p
 
 ##
 
-**Questão 3**
+**Questão 3** <br> ![kernel](img/kernel.png)
+![pixels](img/pixels.png) <br>
+
+Basta multiplicar os valores do kernel de acordo com as posições dos pixels da imagem
+(Por questão de praticidade eu não inclui na conta os pixels multiplicados por 0.00)
+
 
 ##
 
