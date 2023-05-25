@@ -12,3 +12,7 @@ Uma conta de exemplo seria: 255 - 29, que daria 226. E esse é o novo valor do p
 
 **Questão 3**
 
+##
+
+**Questão 4** <br> ![pigbird_correlacao](img/pigbird_correlacao.png)
+
