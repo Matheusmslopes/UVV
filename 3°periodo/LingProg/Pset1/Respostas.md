@@ -18,7 +18,6 @@ Basta multiplicar os valores do kernel de acordo com as posições dos pixels da
 
 ![calculo](img/Calculo.jpeg)
 
-
 ##
 
 **Questão 4** <br> ![pigbird_correlacao](img/pigbird_correlacao.png)
@@ -29,5 +28,9 @@ Basta multiplicar os valores do kernel de acordo com as posições dos pixels da
 
 ## 
 
-**Questão 6**
+**Questão 6** 
+<br> Kernel Ox / Kernel Oy
+<br> ![Ox](img/Ox.png) ![Oy](img/Oy.png)
+
+O kernel Ox dá um destaque maior para as bordas na vertical, já o kernel Oy dá um destaque para as bordas horizontais
 
