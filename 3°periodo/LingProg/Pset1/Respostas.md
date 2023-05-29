@@ -23,3 +23,11 @@ Basta multiplicar os valores do kernel de acordo com as posições dos pixels da
 
 **Questão 4** <br> ![pigbird_correlacao](img/pigbird_correlacao.png)
 
+## 
+
+**Questão 5** 
+
+## 
+
+**Questão 6**
+
