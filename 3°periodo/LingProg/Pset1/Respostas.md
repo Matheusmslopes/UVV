@@ -24,7 +24,8 @@ Basta multiplicar os valores do kernel de acordo com as posições dos pixels da
 
 ## 
 
-**Questão 5** 
+**Questão 5 ->** Não acho que seja possível, uma vez que precisamos multiplicar o valor do pixel da imagem original por 2 para depois 
+subtrair pelo valor do pixel da imagem borrada, de acordo com a segunite fórmula Sx,y = round(2Ix,y − Bx,y)
 
 ## 
 
