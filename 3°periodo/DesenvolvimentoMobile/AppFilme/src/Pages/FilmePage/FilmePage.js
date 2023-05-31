@@ -2,7 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import { useEffect, useState } from 'react';
 import { Text, View } from 'react-native';
 import styles from "./styles";
-import Filme from '../../Components/Filme';
+import Filme from './Filme';
 
 
 export default function FilmePage() {
