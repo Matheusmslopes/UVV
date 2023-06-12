@@ -65,7 +65,8 @@ const styles = StyleSheet.create({
       color: '#0D0D0D',
       margin: 10,
       fontSize: 14,
-      fontWeight: 'bold'
+      fontWeight: 'bold',
+      textAlign: 'justify'
     },
      
     carregando: {
