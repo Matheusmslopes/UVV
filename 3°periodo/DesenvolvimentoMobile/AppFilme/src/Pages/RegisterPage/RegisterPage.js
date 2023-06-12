@@ -1,4 +1,5 @@
-import { View } from "react-native";
+import { View, TouchableOpacity} from "react-native";
+import { Link } from '@react-navigation/native';
 import styles from "./styles";
 import { useState } from "react"
 import { TextInput } from "react-native"
@@ -24,7 +25,10 @@ export default function RegisterPage(){
                 onChangeText={text=>setSenha(text)}
                 placeholder="senha"
                 secureTextEntry = 'true'/>
+
+            <TouchableOpacity style = {styles.Btn}>
+                <Link to= {{screen: "Página de filmes"}} style = {styles.txtBtn}>Confirmar</Link>
+            </TouchableOpacity>
         </View>
     )
 }
-
