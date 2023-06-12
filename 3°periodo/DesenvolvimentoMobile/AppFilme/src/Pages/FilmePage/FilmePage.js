@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { useEffect, useState } from 'react';
-import { Text, View } from 'react-native';
+import { ActivityIndicator, Text, View } from 'react-native';
 import styles from "./styles";
 import Filme from './Filme';
 
@@ -29,7 +29,7 @@ export default function FilmePage() {
       <View>
         { filmes.length > 0 ? filmes.map(filme => 
         <Filme key={filme.id} filme={filme.attributes}/>)
-        : <Text style = {styles.carregando}>Carregando...</Text>}
+        : <ActivityIndicator size = {'large'}/>}
       </View>
         <StatusBar style = "auto"/>
     </View>
