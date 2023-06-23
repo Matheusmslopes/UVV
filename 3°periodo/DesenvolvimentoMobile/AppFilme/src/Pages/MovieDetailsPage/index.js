@@ -1,4 +1,4 @@
-import { View, Text } from "react-native";
+import { View, Text, TouchableOpacity } from "react-native";
 
 export default function MovieDetailsPage({ route }){
 
@@ -9,6 +9,9 @@ export default function MovieDetailsPage({ route }){
             <Text>{filme.titulo}</Text>
             <Text>{filme.subtitulo}</Text>
             <Text>{filme.sinopse}</Text>
+            <TouchableOpacity>
+                <Text>Comprar</Text>
+            </TouchableOpacity>
         </View>
     )
 }
