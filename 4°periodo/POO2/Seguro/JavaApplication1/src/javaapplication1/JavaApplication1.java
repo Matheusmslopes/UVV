@@ -15,9 +15,6 @@ public class JavaApplication1 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Cliente C = new Cliente("Jose", "111.111.111-38");
-        Veiculo V = new Veiculo(2022, "preto", "Fiat", "ABD-2021");
-        
     }
     
 }
