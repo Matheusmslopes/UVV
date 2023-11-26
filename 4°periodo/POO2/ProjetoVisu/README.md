@@ -61,4 +61,8 @@ Siga os seguintes passos para inicializar o trabalho
 
 ```npm install ejs```
 
+## Instalando o ts-node-dev
+
+```npm install ts-node-dev --save-dev```
+
 
