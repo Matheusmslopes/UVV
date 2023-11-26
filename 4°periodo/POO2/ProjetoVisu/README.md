@@ -56,3 +56,9 @@ Siga os seguintes passos para inicializar o trabalho
 ```npm install express```
 
 ```npm install --save-dev @types/express```
+
+## Instalando ejs
+
+```npm install ejs```
+
+
