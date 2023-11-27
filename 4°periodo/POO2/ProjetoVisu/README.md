@@ -3,6 +3,7 @@
 - Typescript
 - Prisma
 - Express
+- ejs
 
 # Preparando o ambiente
 
