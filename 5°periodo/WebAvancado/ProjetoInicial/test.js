@@ -11,7 +11,7 @@ test('Basic Server', async(t) => {
 
     const response = await app.inject({
         method: 'GET',
-        url: '/'
+        url: '/products'
     });
 
     assert.strictEqual(response.statusCode, 200);
